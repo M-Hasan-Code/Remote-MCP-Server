@@ -1,4 +1,4 @@
-from tools import conn
+from db import conn
 
 def create_user(name: str, email: str, created_at: str):
     with conn.cursor() as cur:
